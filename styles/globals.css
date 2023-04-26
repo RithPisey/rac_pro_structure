@@ -1,0 +1,36 @@
+/* custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 0.2vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #80808052;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#globalLoader {
+  position: fixed;
+  z-index: 99999;
+  top: 50%;
+  left: 50%;
+
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
